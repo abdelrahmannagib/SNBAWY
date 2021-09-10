@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(backg.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* background-position: center; */
+    font-family: sans-serif;
+    background-repeat: no-repeat;    
+}
+.signup{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color:rgb(orange);
+    top:55%;
+    left:49%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border: solid olive;
+    border-radius: 100px;
+    text-decoration-style: double;
+}
+*{
+
+    margin: 0;
+}
+
+.clear{
+
+    clear: both;
+}
+
+.nav {
+
+    background-color: black;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    opacity: .8;
+    position: absolute;
+    float: left;
+    width: calc((100% - 30px) / 1);
+    margin-left: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navLinks{
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    font-style: italic;
+}
+
+.navLinks:hover {
+
+    background-color:blanchedalmond;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    opacity: .9;
+    border: 0.5px solid black;
+    border-radius: 40px ;
+    -webkit-border-radius: 40px ;
+    -moz-border-radius: 40px ;
+    -ms-border-radius: 40px ;
+    -o-border-radius: 40px ;
+}
+
+.links{
+
+    text-transform: capitalize;
+    float: right;
+    padding-top: 13px;
+}
+
+.nav p {
+
+    font-family: my;
+    padding-left: 15px;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+}
+
+h1 {
+
+    text-transform: capitalize;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#three{
+    margin-left: 10px;
+}
+#one
+{
+    margin-left: 10px;
+    text-decoration-style: solid;
+    text-decoration-color: royalblue;
+}
+
+.fontSize {
+
+    font-size: 20px;
+    color: orange;
+    text-transform: capitalize;
+    color: black;
+    
+}
+
+#two{
+    margin-left: 10px;
+}
+#four{
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+    margin-bottom: 40px;
+    
+}
+
+.pass{
+    font-size: 20px;
+    color: orange;
+}
+
+.bondok{
+    height: 30px;
+    width: 250px;
+}
+.button {
+        margin-left: 160px;
+        margin-top: 5%;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 20px;
+        width: 100px;
+        height: 50px;
+        color:black;
+        font-size: 25px;
+        
+}
+
+@font-face {
+    font-family: my;
+    src: url(Letric_PERSONAL_USE_ONLY.otf);
+}
+.container {
+    position: relative;
+}
+.checkBox{
+    display: inline;
+
+    position: absolute;
+    float: right;
+    right: 110px;
+    
+}
